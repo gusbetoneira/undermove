@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Move Lutas | Indaiatuba SP</title>
+    <!-- Google Fonts: Oswald (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar-container">
+        <div class="navbar-content">
+            <a href="#" class="logo-link" id="nav-logo">
+                <!-- Official Logo Image from assets -->
+                <img src="assets/images.jpg" alt="Logo Under Move Lutas" class="header-logo-img">
+            </a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-item active">Início</a>
+                <a href="#sobre" class="nav-item">Sobre</a>
+                <a href="#diferenciais" class="nav-item">Diferenciais</a>
+                <a href="#modalidades" class="nav-item">Aulas</a>
+                <a href="#faq" class="nav-item">Dúvidas</a>
+                <a href="#horarios" class="nav-item">Horários</a>
+                <a href="#contato" class="nav-item">Contato</a>
+            </nav>
+
+            <a href="https://wa.me/5519978233264" class="start-btn" target="_blank">Começar Hoje</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION WITH STATIC IMAGE BACKGROUND -->
+    <section class="hero-section" id="inicio">
+        <!-- Replaced background video with standard image tag pointing to tatame -->
+        <img src="assets/tatame.jpg" alt="Tatame Under Move Lutas" class="hero-image-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-up">UNDER MOVE LUTAS</h1>
+            <p class="hero-subtitle animate-up delay-1">Explore o seu limite. Treine Jiu-Jitsu, Muay Thai e Boxe em uma estrutura de alto nível em Indaiatuba com quem vive o tatame.</p>
+            <div class="hero-cta-group animate-up delay-2">
+                <a href="https://wa.me/5519978233264" target="_blank" class="hero-btn">Aula Experimental Grátis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT INFO STRIP -->
+    <div class="contact-strip-container">
+        <div class="contact-strip">
+            <div class="strip-item">
+                <div class="strip-icon-box">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <div class="strip-info">
+                    <span class="strip-label">Endereço</span>
+                    <span class="strip-value">Rua Pará, 865 - Cidade Nova II, Indaiatuba/SP</span>
+                </div>
+            </div>
+            <div class="strip-item">
+                <div class="strip-icon-box">
+                    <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <div class="strip-info">
+                    <span class="strip-label">Telefone</span>
+                    <span class="strip-value">(19) 97823-3264</span>
+                </div>
+            </div>
+            <div class="strip-item">
+                <div class="strip-icon-box">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <div class="strip-info">
+                    <span class="strip-label">Horário de Funcionamento</span>
+                    <span class="strip-value">Segunda a Sábado - Ver Quadro abaixo</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="sobre">
+        <div class="about-container">
+            <!-- Left Side: Gym video player replacing image -->
+            <div class="about-image-wrapper">
+                <div class="about-main-img-box">
+                    <!-- Standard video player tag optimized for autoplay and loop -->
+                    <video autoplay loop muted playsinline class="about-main-video">
+                        <source src="assets/video inauguração.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeos HTML5.
+                    </video>
+                </div>
+                <!-- Overlay Card matching layout -->
+                <div class="about-overlay-card">
+                    <div class="overlay-card-icon-box">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="overlay-card-title">Defesa Pessoal</h3>
+                    <p class="overlay-card-desc">Técnicas realistas focadas na prevenção, controle emocional e proteção pessoal.</p>
+                </div>
+            </div>
+
+            <!-- Right Side: Text -->
+            <div class="about-text-content">
+                <span class="section-tagline">Bem-Vindo à</span>
+                <h2 class="section-heading">Under Move Lutas & Artes Marciais</h2>
+                
+                <!-- Continuous paragraph restored -->
+                <p class="about-paragraph">
+                    Localizada em Indaiatuba/SP, a Under Move Lutas é mais do que uma academia: somos uma comunidade focada na evolução física e mental dos nossos alunos. Com uma infraestrutura de alto nível, tatame premium sempre limpo e ambiente familiar, oferecemos aulas de Jiu-Jitsu (adulto e infantil), Muay Thai, Boxe e Funcional Fight.
+                </p>
+
+                <!-- Team Grid (Equipe Under Move) -->
+                <div class="team-grid">
+                    <!-- Perfil 1 -->
+                    <div class="team-card">
+                        <div class="team-img-wrapper">
+                            <img src="./assets/murilo.jpg" alt="Professor Murilo" class="team-img" loading="lazy">
+                        </div>
+                        <div class="team-info">
+                            <h4 class="team-name">Murilo</h4>
+                            <span class="team-role">Professor de Jiu-Jitsu</span>
+                        </div>
+                    </div>
+                    <!-- Perfil 2 -->
+                    <div class="team-card">
+                        <div class="team-img-wrapper">
+                            <img src="./assets/patricia.jpg" alt="Professora Patrícia" class="team-img" loading="lazy">
+                        </div>
+                        <div class="team-info">
+                            <h4 class="team-name">Patrícia</h4>
+                            <span class="team-role">Professora de Jiu-Jitsu</span>
+                        </div>
+                    </div>
+                    <!-- Perfil 3 -->
+                    <div class="team-card">
+                        <div class="team-img-wrapper">
+                            <img src="./assets/osias.jpg" alt="Professor Osias" class="team-img" loading="lazy">
+                        </div>
+                        <div class="team-info">
+                            <h4 class="team-name">Osias</h4>
+                            <span class="team-role">Professor de Muay Thai e Boxe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-action-row">
+                    <a href="https://wa.me/5519978233264" target="_blank" class="about-btn">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT ARE YOU GETTING SECTION (Diferenciais) -->
+    <section class="diferenciais-section" id="diferenciais">
+        <div class="diferenciais-container">
+            <!-- Left Info Block -->
+            <div class="diferenciais-left">
+                <span class="section-tagline">Nossos Diferenciais</span>
+                <h2 class="section-heading">O Que Você Encontra Aqui</h2>
+                
+                <div class="diferenciais-actions">
+                    <a href="#modalidades" class="view-all-btn">Ver Modalidades</a>
+                </div>
+
+                <p class="diferenciais-intro-text">
+                    Nossa metodologia foi desenhada para atender desde o iniciante absoluto, que busca saúde e perda de peso, até o competidor profissional de alta performance.
+                </p>
+
+                <!-- Cards Grid -->
+                <div class="diferenciais-grid">
+                    <div class="diferencial-card">
+                        <div class="card-icon-box">
+                            <i class="fa-solid fa-square-person-confined"></i>
+                        </div>
+                        <h3 class="card-title">Espaço Amplo e Higienizado</h3>
+                        <p class="card-desc">Tatame de alta absorção de impacto, limpo e higienizado diariamente para garantir a sua segurança e saúde.</p>
+                    </div>
+                    <div class="diferencial-card">
+                        <div class="card-icon-box">
+                            <i class="fa-solid fa-sack-dollar"></i>
+                        </div>
+                        <h3 class="card-title">Preços e Planos Justos</h3>
+                        <p class="card-desc">Plano ideal para o seu bolso, com contratos flexíveis e sem taxas ocultas. Acesso total à qualidade técnica.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Image Block -->
+            <div class="diferenciais-right">
+                <!-- Standard img tag pointed to leandro lo photo from assets -->
+                <img src="assets/leandro lo.jpg" alt="Destaque Leandro Lo na Under Move" class="diferenciais-img" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAINING PROGRAMS (Programas de Treino) -->
+    <section class="programs-section" id="modalidades">
+        <div class="programs-container">
+            <span class="section-tagline tag-center">Escolha sua Modalidade</span>
+            <h2 class="section-heading text-center">Nossos Programas de Treino</h2>
+
+            <div class="programs-grid">
+                <!-- Program Card 1 -->
+                <div class="program-card">
+                    <div class="card-img-wrapper">
+                        <!-- Standard img tag optimized with BJJ real photo from assets -->
+                        <img src="assets/bjj masculino.jpg" alt="Aulas de Jiu-Jitsu Under Move" class="program-img" loading="lazy">
+                    </div>
+                    <div class="program-card-content">
+                        <h3 class="program-title">Brazilian Jiu-Jitsu</h3>
+                        <p class="program-desc">A arte suave completa. Oferecemos Jiu-Jitsu Baby (3 a 6 anos), Kids (5 a 12 anos), Turma Feminina e turmas gerais com e sem kimono (NoGi).</p>
+                    </div>
+                </div>
+                <!-- Program Card 2 -->
+                <div class="program-card">
+                    <div class="card-img-wrapper">
+                        <!-- Standard img tag optimized with Muay Thai photo from assets -->
+                        <img src="assets/muay thai.jpg" alt="Treino de Muay Thai Under Move" class="program-img" loading="lazy">
+                    </div>
+                    <div class="program-card-content">
+                        <h3 class="program-title">Muay Thai</h3>
+                        <p class="program-desc">A arte das oito armas. Treino dinâmico, focado no condicionamento cardiorrespiratório, agilidade, coordenação e queima calórica.</p>
+                    </div>
+                </div>
+                <!-- Program Card 3 -->
+                <div class="program-card">
+                    <div class="card-img-wrapper">
+                        <!-- Standard img tag optimized with Boxe real photo from assets -->
+                        <img src="assets/boxe.jpg" alt="Treino de Boxe Under Move" class="program-img" loading="lazy">
+                    </div>
+                    <div class="program-card-content">
+                        <h3 class="program-title">Boxe & Funcional Fight</h3>
+                        <p class="program-desc">Aprimore sua esquiva, golpes and agilidade com o Boxe tradicional e queime calorias com o Funcional Fight sem sparring.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="programs-footer-btn">
+                <a href="#horarios" class="view-all-btn-blue">Ver Grade de Horários</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section" id="faq">
+        <div class="faq-container">
+            <span class="section-tagline tag-center">F.A.Q.</span>
+            <h2 class="section-heading text-center">PERGUNTAS FREQUENTES</h2>
+
+            <div class="faq-list">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Quais modalidades são oferecidas para crianças?</span>
+                        <i class="fa-solid fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Oferecemos o Jiu-Jitsu Baby (ideal para crianças de 3 a 6 anos) and o Jiu-Jitsu Kids (de 5 a 12 anos). Nossas aulas focam no desenvolvimento motor, disciplina, respeito mútuo e autodefesa de forma lúdica.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Qual a diferença do Jiu-Jitsu NoGi (Sem Kimono)?</span>
+                        <i class="fa-solid fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O Jiu-Jitsu NoGi é praticado sem o tradicional kimono de pano. Em vez dele, os alunos treinam com camisetas de lycra (rash guards) e bermudas de compressão. Isso torna o jogo muito mais rápido, dinâmico e focado em pegadas no próprio corpo (pulsos, pescoço, nuca).</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item active">
+                    <button class="faq-question">
+                        <span>Preciso comprar equipamentos para a primeira aula experimental?</span>
+                        <i class="fa-solid fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Para a sua primeira aula de Jiu-Jitsu, você pode treinar com roupas esportivas confortáveis (como camiseta e calça de moletom/leg). Se preferir fazer Muay Thai ou Boxe, a academia disponibiliza luvas higienizadas para o seu treino experimental. Nós fazemos o resto!</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Nunca treinei nenhuma luta na vida. Posso começar?</span>
+                        <i class="fa-solid fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Com certeza! Nossas turmas são preparadas para receber pessoas de todos os níveis, desde quem nunca colocou o pé no tatame até praticantes avançados. Nossos professores adaptam a intensidade e os exercícios para respeitar o seu ritmo e garantir uma evolução segura.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Como posso agendar uma aula experimental?</span>
+                        <i class="fa-solid fa-plus faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Agendar é simples e rápido. Basta clicar em qualquer botão de contato no nosso site para falar direto conosco pelo WhatsApp, ou ligar no número (19) 97823-3264. Escolha a modalidade e o melhor horário na nossa grade e venha treinar!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-footer">
+                <a href="https://wa.me/5519978233264" target="_blank" class="faq-action-btn">Dúvidas? Entre em contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCHEDULE SECTION (Grade de Horários) -->
+    <section class="schedule-section" id="horarios">
+        <div class="schedule-container">
+            <!-- Schedule Header based on print -->
+            <div class="schedule-gym-header">
+                <svg class="schedule-logo" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="30" cy="30" r="28" fill="none" stroke="#ffffff" stroke-width="2"/>
+                    <path d="M 30 7 L 47 15 L 47 38 C 47 48 30 55 30 55 C 30 55 13 48 13 38 L 13 15 Z" fill="#ffffff"/>
+                    <path d="M 21 20 L 25 20 L 25 32 C 25 34 26 35 28 35 C 30 35 31 34 31 32 L 31 20 L 35 20 M 35 20 L 41 20 L 41 32 C 41 34 40 35 38 35 C 36 35 35 34 35 32 L 35 20" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="square"/>
+                    <path d="M 27 23 L 30 28 L 33 23" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="square"/>
+                </svg>
+                <h2 class="schedule-header-title">QUADRO DE HORÁRIOS</h2>
+            </div>
+
+            <!-- Interactive Tab buttons to toggle between schedules -->
+            <div class="schedule-tabs">
+                <button class="tab-btn active" data-tab="jiujitsu">Jiu-Jitsu</button>
+                <button class="tab-btn" data-tab="striking">Muay Thai, Boxe & Funcional</button>
+            </div>
+
+            <!-- Tab 1: Jiu-Jitsu Table -->
+            <div class="table-responsive tab-content active" id="tab-jiujitsu">
+                <h3 class="table-subtitle">JIU-JITSU</h3>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>HORÁRIO</th>
+                            <th>SEGUNDA</th>
+                            <th>TERÇA</th>
+                            <th>QUARTA</th>
+                            <th>QUINTA</th>
+                            <th>SEXTA</th>
+                            <th>SÁBADO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="time-col">9:15 - 10:15</td>
+                            <td class="class-cell bjj-general">JIU-JITSU</td>
+                            <td class="class-cell bjj-kids">JIU-JITSU KIDS<br><small>(5 A 12 ANOS)</small></td>
+                            <td class="class-cell bjj-general">JIU-JITSU</td>
+                            <td class="class-cell bjj-kids">JIU-JITSU KIDS<br><small>(5 A 12 ANOS)</small></td>
+                            <td class="class-cell bjj-nogi">JIU-JITSU NoGi<br><small>(SEM KIMONO)</small></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">10:00 - 11:00</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell bjj-general">JIU-JITSU</td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">12:15 - 13:15</td>
+                            <td class="class-cell bjj-general">JIU-JITSU</td>
+                            <td class="class-cell bjj-general">JIU-JITSU</td>
+                            <td class="class-cell bjj-general">JIU-JITSU</td>
+                            <td class="class-cell bjj-general">JIU-JITSU</td>
+                            <td class="class-cell bjj-nogi">JIU-JITSU NoGi<br><small>(SEM KIMONO)</small></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">17:00 - 18:00</td>
+                            <td class="class-cell bjj-baby">JIU-JITSU BABY<br><small>(3 A 6 ANOS)</small></td>
+                            <td class="class-cell bjj-fem">JIU-JITSU FEMININO</td>
+                            <td class="class-cell bjj-baby">JIU-JITSU BABY<br><small>(3 A 6 ANOS)</small></td>
+                            <td class="class-cell bjj-fem">JIU-JITSU FEMININO</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">18:15 - 19:15</td>
+                            <td class="class-cell bjj-fem">JIU-JITSU FEMININO</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell bjj-fem">JIU-JITSU FEMININO</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell bjj-nogi-fem">JIU-JITSU FEMININO NoGi<br><small>(SEM KIMONO)</small></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">18:30 - 19:30</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell bjj-kids">JIU-JITSU KIDS<br><small>(5 A 12 ANOS)</small></td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell bjj-kids">JIU-JITSU KIDS<br><small>(5 A 12 ANOS)</small></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">19:15 - 20:15</td>
+                            <td class="class-cell bjj-general">JIU-JITSU</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell bjj-general">JIU-JITSU</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell bjj-nogi">JIU-JITSU NoGi<br><small>(SEM KIMONO)</small></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tab 2: Muay Thai, Boxe & Funcional Table -->
+            <div class="table-responsive tab-content" id="tab-striking">
+                <h3 class="table-subtitle">MUAY THAI, BOXE E FUNCIONAL FIGHT</h3>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>HORÁRIO</th>
+                            <th>SEGUNDA</th>
+                            <th>TERÇA</th>
+                            <th>QUARTA</th>
+                            <th>QUINTA</th>
+                            <th>SEXTA</th>
+                            <th>SÁBADO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="time-col">7:00 - 8:00</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell striking-thai">MUAY THAI</td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">7:15 - 8:15</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell striking-thai">MUAY THAI</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell striking-thai">MUAY THAI</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">8:00 - 9:00</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell striking-boxe">BOXE</td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">8:15 - 9:15</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell striking-boxe">BOXE</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell striking-boxe">BOXE</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">9:00 - 9:50</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell striking-funcional">FUNCIONAL FIGHT<br><small>(SEM SPARRING)</small></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">14:30 - 15:30</td>
+                            <td class="class-cell striking-boxe">BOXE</td>
+                            <td class="class-cell striking-thai">MUAY THAI</td>
+                            <td class="class-cell striking-boxe">BOXE</td>
+                            <td class="class-cell striking-thai">MUAY THAI</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">16:00 - 17:00</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">19:30 - 20:30</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell striking-boxe">BOXE</td>
+                            <td class="empty-cell"></td>
+                            <td class="class-cell striking-boxe">BOXE</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                        <tr>
+                            <td class="time-col">20:30 - 21:30</td>
+                            <td class="class-cell striking-thai">MUAY THAI</td>
+                            <td class="class-cell striking-thai">MUAY THAI</td>
+                            <td class="class-cell striking-thai">MUAY THAI</td>
+                            <td class="class-cell striking-thai">MUAY THAI</td>
+                            <td class="empty-cell"></td>
+                            <td class="empty-cell"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Schedule info footer with address, tel, and insta -->
+            <div class="schedule-gym-footer">
+                <div class="schedule-footer-item">
+                    <i class="fa-brands fa-whatsapp footer-icon"></i>
+                    <span>(19) 9 7823-3264</span>
+                </div>
+                <div class="schedule-footer-item">
+                    <i class="fa-brands fa-instagram footer-icon"></i>
+                    <span>@undermovelutas</span>
+                </div>
+                <div class="schedule-footer-item">
+                    <i class="fa-solid fa-map-pin footer-icon"></i>
+                    <span>Rua Pará, 865 - Cidade Nova II - Indaiatuba/SP</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GOOGLE BUSINESS / REVIEWS SECTION -->
+    <section class="reviews-section" id="contato">
+        <div class="reviews-container">
+            <span class="section-tagline tag-center">Opinião de Quem Treina</span>
+            <h2 class="section-heading text-center">REVIEWS NO GOOGLE BUSINESS</h2>
+            
+            <div class="google-rating-box">
+                <div class="rating-number">5.0</div>
+                <div class="rating-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="rating-meta">Baseado em 30 avaliações de alunos da Under Move</div>
+            </div>
+
+            <!-- Beautiful Google reviews grid container -->
+            <div class="reviews-grid">
+                <!-- Review 1 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-user-avatar bg-avatar-green">G</div>
+                        <div class="review-user-info">
+                            <h4 class="review-user-name">Gustavo Silva</h4>
+                            <span class="review-date">Há 2 meses</span>
+                        </div>
+                        <div class="review-stars-small">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="review-text">"Profissionalismo e respeito com os alunos, ambiente limpo e agradável."</p>
+                </div>
+                <!-- Review 2 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-user-avatar bg-avatar-blue">P</div>
+                        <div class="review-user-info">
+                            <h4 class="review-user-name">Patrícia Rocha</h4>
+                            <span class="review-date">Há 1 mês</span>
+                        </div>
+                        <div class="review-stars-small">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="review-text">"Ótimos professores e excelente localização."</p>
+                </div>
+                <!-- Review 3 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-user-avatar bg-avatar-green">F</div>
+                        <div class="review-user-info">
+                            <h4 class="review-user-name">Francielle B.</h4>
+                            <span class="review-date">Há 3 semanas</span>
+                        </div>
+                        <div class="review-stars-small">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="review-text">"Melhor tatame de Indaiatuba, ambiente muito familiar e treinos de altíssimo nível!"</p>
+                </div>
+            </div>
+
+            <!-- CTA button to review page directly -->
+            <div class="reviews-cta-container">
+                <a href="https://share.google/NyvVwtajjhXHCEQJI" target="_blank" class="reviews-cta-btn">Ver todas as avaliações no Google</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="gym-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <!-- Small Monogram + Text -->
+                <div class="footer-logo">
+                    <a href="#" class="logo-link">
+                        <img src="assets/images.jpg" alt="Logo Under Move Lutas" class="header-logo-img">
+                    </a>
+                </div>
+                <p class="footer-about">Academia de artes marciais em Indaiatuba/SP. Foco, força, evolução e comunidade.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/undermovelutas" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/5519978233264" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4 class="footer-heading">Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                    <li><a href="#modalidades">Modalidades</a></li>
+                    <li><a href="#horarios">Grade de Horários</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4 class="footer-heading">Contato & Localização</h4>
+                <p><i class="fa-solid fa-map-pin"></i> Rua Pará, 865 - Cidade Nova II, Indaiatuba - SP, 13334-360</p>
+                <p><i class="fa-solid fa-phone"></i> (19) 97823-3264</p>
+                <p><i class="fa-solid fa-envelope"></i> contato@undermovelutas.com.br</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Under Move Lutas. Todos os direitos reservados. Design e Desenvolvimento de elite.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="index.js"></script>
+</body>
+</html>
